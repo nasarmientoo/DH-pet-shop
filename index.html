@@ -3,63 +3,117 @@
 
 <head>
     <meta charset="utf-8">
-    <title>El clásico Lemon Pie</title>
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <img src="assets/logo.png">
-        <ul type="none">
-            <li><a href="">Recetas dulces</a></li>
-            <li><a href="">Recetas saladas</a></li>
-            <li><a href="">Contacto</a></li>
-        </ul>
+        <div>
+            <p>Grandes ofertas en comederos</p>
+            <select>
+                <option>Español</option>
+                <option>Inglés</option>
+                <option>Francés</option>
+            </select>
 
-        <hr>
+            <select>
+                <option>ARG$</option>
+                <option>COP$</option>
+                <option>US$</option>
+            </select>
+        </div>
+
+        <div>
+            <img src="assets/Logo.png" alt="logo.png">
+            <ul class="menu">
+                <li>Categorías</li>
+                <li>Pets</li>
+                <li>Nosotros</li>
+                <li>Contactanos</li>
+            </ul>
+        </div>
     </header>
 
     <main>
-        <img src="assets/lemon-pie 2.jpg">
-        <h1> El clásico Lemon Pie</h1>
-        <p align="justify"> Es el preferido de los que les gusta lo dulce pero no lo empalagoso. El lemon pie es una tarta, es decir, una base de masa y un relleno. Como su nombre lo indica,está hecha con jugo de limón, azúcar y huevos. Todo eso mezclado hace el famoso custard,
-            el relleno cremoso amarillo que es tan típico del lemon pie.</p>
+        <section>
+            <h2>¡Es un placer tenerte aquí!</h2>
+            <p>¡Comederos de descuentos!</p>
+            <button>COMEDEROS</button>
+        </section>
 
-        <h2>Ingredientes</h2>
-        <h3> Para la masa</h3>
-        <ul>
-            <li>200g. gramos de harina 0000</li>
-            <li>50g. de azúcar</li>
-            <li>1 huevo</li>
-            <li>100g. de manteca</li>
-        </ul>
+        <section>
+            <img src="assets/pawprint-orange.png" alt="pawprint.png">
+            <h1>Productos destacados</h1>
+            <ul>
+                <li type="none">Comederos</li>
+                <li>Accesorios</li>
+                <li>Comida</li>
+            </ul>
+        </section>
 
-        <h3> Para la crema</h3>
-        <ul>
-            <li>150cc. de jugo de limón</li>
-            <li>1 cucharada de ralladura de limón</li>
-            <li>4 yemas</li>
-            <li>leche condensada</li>
-        </ul>
+        <section>
+            <div>
+                <img src="assets/churrasquito.png" alt="churrasquito">
+                <p>Juguete churrasquito</p>
+                <p>$150</p>
+            </div>
+            <div>
+                <img src="assets/comedero.png" alt="comedero">
+                <p>Comedero para perro</p>
+                <p>$250</p>
+            </div>
+            <div>
+                <img src="assets/Huesito.png" alt="Huesito">
+                <p>Juguete Huesito</p>
+                <p>$650</p>
+            </div>
+        </section>
 
-        <h3> Para el merengue</h3>
-        <ul>
-            <li>240g. de azúcar</li>
-            <li>3 claras</li>
-        </ul>
-
-        <h2>Instrucciones</h2>
-        <ol align="justify">
-            <li>Procesar o mezclar ligeramente la harina, el azúcar y la manteca fría curtada en cubitos, hasta formar un arenado. Agregar el huevo y unir la masa sin trabajarla mucho. Envolver en film y llevar a la heladera por 30 minutos aproximadamente.</li>
-            <li>Precalentar el horno a temperatura media (180°C).</li>
-            <li>Estirar sobre una mesada enharinada y tapizar un molde para tarta desmontable de 22 cm de diámetro. Cocinar durante 20 minutos o hasta que comience a dorarse.</li>
-            <li>Mezclar la leche condensada con 4 yemas, 150cc de jugo de limón e integrar la ralladura. Unir bien y verter sobre la masa precocida. Cocinar en horno moderado durante 15 minutos.</li>
-            <li>Colocar el azúcar en una cacerolita y cubrir con apenas con agua. Cocinar hasta obtener la textura de un <span><a href="">Merengue Italiano</a></span></li>
-            <li>Unos minutos antes del punto del almíbar, comenzar a batir las claras. Cuando empiecen a formar picos, añadir gota a gota el almíbar caliente sin dejar de batir hasta que se enfríe.</li>
-            <li>Decorar con el merengue y gratinar.</li>
-        </ol>
+        <section>
+            <h2>Contáctanos</h2>
+            <input placeholder="Nombre y Apellido">
+            <input placeholder="Ingresá tu correo electrónico">
+            <input placeholder="Teléfono">
+            <button>Resetear</button>
+            <input type="Submit" value="Enviar">
+        </section>
     </main>
-    <footer align="center">
-        <hr> Todos los derechos reservados a Nataly Sarmiento Ospina
+
+    <footer>
+        <div>
+            <img src="assets/enviar-correo.png" alt="enviar-correo-icon">
+            <h2>Suscríbete para más novedades</h2>
+            <input placeholder="Ingresa tu correo electrónico">
+            <input type="Submit" value="Suscribirme">
+        </div>
+        <div>
+            <div>
+                <ul>
+                    <li>
+                        <img src="assets/Icono-ubicacion.png" alt="Icono-ubicacion">
+                        <h2>Localidad</h2>
+                        <p>Calle-provincia</p>
+                    </li>
+                    <li>
+                        <img src="assets/Icono-telefono.png" alt="Icono-telefono">
+                        <h2>Teléfono</h2>
+                        <p>Número de teléfono</p>
+                    </li>
+                    <li>
+                        <img src="assets/Icono-mail.png" alt="Icono-mail">
+                        <h2>Correo electrónico</h2>
+                        <p>Dirección de correo</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <img src="assets/Logo.png" alt="logo.png">
+            </div>
+        </div>
+        <div>
+            Todos los derechos reservados Front End
+        </div>
     </footer>
 
 </body>

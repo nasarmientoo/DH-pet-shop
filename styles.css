@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+ul.menu li {
+    list-style-image: url('assets/pawprint.png');
+}
+
+header>div:first-child {
+    background-color: #222222;
+    color: #F3F3F3;
+}
+
+header>div:last-child {
+    background-color: #F0A83E;
+    color: #F3F3F3;
+}
+
+main>section:first-child {
+    background-image: url('assets/bowl-and-pet-daities-on-green-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
