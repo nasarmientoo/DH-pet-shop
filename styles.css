@@ -1,25 +1,85 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
     margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-ul.menu li {
-    list-style-image: url('assets/pawprint.png');
-}
+
+/* Header ---------------------------------------------------------- */
+
+
+/* First section --------------------- */
 
 header>div:first-child {
     background-color: #222222;
     color: #F3F3F3;
+    font-size: 14px;
+    display: flex;
+    padding: 10px;
 }
+
+#htext {
+    padding-left: 7%;
+}
+
+.fc-left {
+    margin-right: auto;
+}
+
+header select {
+    background-color: transparent;
+    color: #F3F3F3;
+    border: none;
+}
+
+header select option {
+    background-color: #222222;
+}
+
+
+/* Second section --------------------- */
 
 header>div:last-child {
     background-color: #F0A83E;
     color: #F3F3F3;
+    display: flex;
+    padding: 2%;
 }
+
+#logo span {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#logo img {
+    width: 27px;
+}
+
+.brown {
+    color: #222222;
+}
+
+.menu {
+    font-size: 19px;
+}
+
+div.menu li {
+    display: inline-block;
+}
+
+div.menu span {
+    display: list-item;
+    list-style-image: url('assets/pawprint.svg');
+}
+
+
+/* Main ---------------------------------------------------------- */
 
 main>section:first-child {
     background-image: url('assets/bowl-and-pet-daities-on-green-background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
-    width: 100%;
+    background-position: center;
+    height: 600px;
 }
