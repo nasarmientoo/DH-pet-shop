@@ -6,6 +6,13 @@
 }
 
 
+/* Shared ---------------------------------------------------------- */
+
+.class {
+    text-align: center;
+}
+
+
 /* Header ---------------------------------------------------------- */
 
 
@@ -19,12 +26,16 @@ header>div:first-child {
     padding: 10px;
 }
 
-#htext {
+#fsh-text {
     padding-left: 7%;
 }
 
 .fc-left {
     margin-right: auto;
+}
+
+#fsh-select {
+    padding-right: 5%;
 }
 
 header select {
@@ -47,6 +58,10 @@ header>div:last-child {
     padding: 2%;
 }
 
+#logo {
+    margin-left: 2%;
+}
+
 #logo span {
     font-weight: bolder;
     font-size: 30px;
@@ -66,6 +81,8 @@ header>div:last-child {
 
 div.menu li {
     display: inline-block;
+    padding-right: 50px;
+    cursor: pointer;
 }
 
 div.menu span {
@@ -76,10 +93,53 @@ div.menu span {
 
 /* Main ---------------------------------------------------------- */
 
-main>section:first-child {
+
+/* First section --------------------- */
+
+#fs-main {
     background-image: url('assets/bowl-and-pet-daities-on-green-background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
+
+.fs-rigth {
+    width: 35%;
+    text-align: center;
+    margin-right: 1%;
+}
+
+.fs-rigth>* {
+    margin-bottom: 3%;
+}
+
+#fs-main h2 {
+    font-weight: normal;
+    background-color: #FFFFFF;
+    font-size: 38px;
+    color: #3C2313;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+#fs-main p {
+    color: #3C2313;
+    font-size: 20px;
+}
+
+#fs-main button {
+    background-color: #F0A83E;
+    border: none;
+    font-size: 20px;
+    color: #F3F3F3;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: lighter;
+}
+
+
+/* Second section --------------------- */
