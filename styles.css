@@ -177,6 +177,7 @@ div.menu span {
     background-color: #FBFAF6;
     margin-left: 25px;
     text-align: center;
+    cursor: pointer;
 }
 
 #ts-main img {
@@ -194,3 +195,56 @@ div.menu span {
     font-weight: bolder;
     font-size: 20px;
 }
+
+
+/* Last section main--------------------- */
+
+#fos-main {
+    text-align: center;
+    margin-top: 7%;
+}
+
+#fos-main div {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+#fos-main p {
+    color: #3C2313;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.form-input {
+    display: block;
+    background-color: #3C2313;
+    border: none;
+    border-radius: 15px;
+    color: #FFFFFF;
+    margin: auto;
+    width: 400px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 1%;
+}
+
+.button {
+    background-color: #8A8787;
+    border-radius: 18px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.orange-back {
+    background-color: #F0A83E;
+}
+
+
+/* Footer ---------------------------------------------------------- */
