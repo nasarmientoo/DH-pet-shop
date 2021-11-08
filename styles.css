@@ -217,7 +217,6 @@ div.menu span {
 
 .form-input {
     display: block;
-    background-color: #3C2313;
     border: none;
     border-radius: 15px;
     color: #FFFFFF;
@@ -246,5 +245,60 @@ div.menu span {
     background-color: #F0A83E;
 }
 
+.brown-back {
+    background-color: #3C2313;
+}
+
 
 /* Footer ---------------------------------------------------------- */
+
+footer {
+    margin-top: 6%;
+}
+
+#fs-foot {
+    background-color: #F0A83E;
+    display: flex;
+    padding: 10px;
+}
+
+.fs-foot-fdiv {
+    margin-left: 2%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.fs-foot-fdiv img {
+    margin-right: 15px;
+}
+
+.fs-foot-sdiv {
+    margin-right: 4%;
+}
+
+.input-sus {
+    border: none;
+    border-radius: 13px;
+    margin: auto;
+    width: 350px;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 1%;
+}
+
+.button-sus {
+    background-color: #3C2313;
+    border-radius: 18px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: lighter;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 90px;
+    cursor: pointer;
+}
