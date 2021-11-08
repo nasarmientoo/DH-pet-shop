@@ -9,7 +9,7 @@
 /* Header ---------------------------------------------------------- */
 
 
-/* First section --------------------- */
+/* First section header--------------------- */
 
 header>div:first-child {
     background-color: #222222;
@@ -42,7 +42,7 @@ header select option {
 }
 
 
-/* Second section --------------------- */
+/* Second section header --------------------- */
 
 header>div:last-child {
     background-color: #F0A83E;
@@ -88,7 +88,7 @@ div.menu span {
 /* Main ---------------------------------------------------------- */
 
 
-/* First section --------------------- */
+/* First section main --------------------- */
 
 #fs-main {
     background-image: url('assets/bowl-and-pet-daities-on-green-background.png');
@@ -102,7 +102,7 @@ div.menu span {
 }
 
 .fs-rigth {
-    width: 35%;
+    width: 500px;
     text-align: center;
     margin-right: 1%;
 }
@@ -137,11 +137,12 @@ div.menu span {
 }
 
 
-/* Second section --------------------- */
+/* Second section main --------------------- */
 
 #ss-main {
     text-align: center;
     margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 #ss-main img {
@@ -161,4 +162,35 @@ div.menu span {
     padding-right: 2%;
     cursor: pointer;
     margin-top: 2%;
+}
+
+
+/* Third section main--------------------- */
+
+#ts-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ts-main div {
+    background-color: #FBFAF6;
+    margin-left: 25px;
+    text-align: center;
+}
+
+#ts-main img {
+    width: 350px;
+}
+
+.product-title {
+    color: #3C2313;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.product-price {
+    color: #F0A83E;
+    font-weight: bolder;
+    font-size: 20px;
 }
