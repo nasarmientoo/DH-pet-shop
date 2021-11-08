@@ -6,13 +6,6 @@
 }
 
 
-/* Shared ---------------------------------------------------------- */
-
-.class {
-    text-align: center;
-}
-
-
 /* Header ---------------------------------------------------------- */
 
 
@@ -60,6 +53,7 @@ header>div:last-child {
 
 #logo {
     margin-left: 2%;
+    cursor: pointer;
 }
 
 #logo span {
@@ -139,7 +133,32 @@ div.menu span {
     padding: 20px;
     border-radius: 5px;
     font-weight: lighter;
+    cursor: pointer;
 }
 
 
 /* Second section --------------------- */
+
+#ss-main {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#ss-main img {
+    width: 7%;
+}
+
+#ss-main p {
+    font-size: 50px;
+    color: #3C2313;
+    font-weight: bolder;
+}
+
+#ss-main li {
+    display: inline-block;
+    color: #666666;
+    font-size: 22px;
+    padding-right: 2%;
+    cursor: pointer;
+    margin-top: 2%;
+}
