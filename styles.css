@@ -181,7 +181,7 @@ div.menu span {
 }
 
 #ts-main img {
-    width: 350px;
+    width: 270px;
 }
 
 .product-title {
@@ -252,6 +252,9 @@ div.menu span {
 
 /* Footer ---------------------------------------------------------- */
 
+
+/* First section footer --------------- */
+
 footer {
     margin-top: 6%;
 }
@@ -301,4 +304,55 @@ footer {
     padding-bottom: 12px;
     width: 90px;
     cursor: pointer;
+}
+
+
+/* Second section footer --------------- */
+
+#ss-foot {
+    background-color: #3C2313;
+    display: flex;
+    color: #FFFFFF;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.info li {
+    display: flex;
+    margin: 25px;
+}
+
+.info-text {
+    margin-left: 30px;
+}
+
+.info-text h2 {
+    font-size: 20px;
+}
+
+.info-text p {
+    color: #8A8787;
+    font-size: 12px;
+}
+
+#logo2 {
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.orange {
+    color: #F0A83E;
+}
+
+
+/* Last section footer --------------- */
+
+#ts-foot {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
 }
